@@ -1,0 +1,173 @@
+{
+	"id": "94424c66-df05-4fa6-a7a7-2b259aa5428a",
+	"name": "w3",
+	"timestamp": "2021-11-06T08:50:17.335Z",
+	"collection_id": "17976415-a83e6c4b-0aff-4962-a727-bc02fc2d9b29",
+	"folder_id": 0,
+	"environment_id": "41e2235f-6ea0-49f5-99b9-3afd23cd066b",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "81feb27b-632b-4985-8343-57ad9115fe2b",
+			"name": "sign in",
+			"url": "http://w3schools.com/",
+			"time": 301,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				301
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ea7d1d88-b0fe-46a0-9d65-52ffe85e3ba3",
+			"name": "log in",
+			"url": "http://w3schools.com/",
+			"time": 322,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				322
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7bfc1e53-b271-4aec-8a60-9171451055b9",
+			"name": "allow_redirects",
+			"url": "http://w3schools.com/",
+			"time": 293,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				293
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5036e93a-c22a-4b47-801d-ab9738920412",
+			"name": "sign in F",
+			"url": "http://w3schools.com/",
+			"time": 300,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				300
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "29585866-e7e6-4d1f-a55b-e7cef03aa2b5",
+			"name": "log in F",
+			"url": "http://w3schools.com/",
+			"time": 289,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				289
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1505,
+	"collection": {
+		"requests": [
+			{
+				"id": "81feb27b-632b-4985-8343-57ad9115fe2b",
+				"method": "POST"
+			},
+			{
+				"id": "ea7d1d88-b0fe-46a0-9d65-52ffe85e3ba3",
+				"method": "POST"
+			},
+			{
+				"id": "7bfc1e53-b271-4aec-8a60-9171451055b9",
+				"method": "POST"
+			},
+			{
+				"id": "5036e93a-c22a-4b47-801d-ab9738920412",
+				"method": "POST"
+			},
+			{
+				"id": "29585866-e7e6-4d1f-a55b-e7cef03aa2b5",
+				"method": "POST"
+			}
+		]
+	}
+}
